@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelefonskiImenik.Model", "ClassLibrary1\TelefonskiImenik.Model.csproj", "{1D518113-3666-4A3B-8CD8-01AB82CFDA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{BCC36D56-EFBB-4FFA-B523-27B3A08CA424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{E947EC96-4D17-402A-8B5E-B4EA15F14EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelefonskiImeniWebUI", "TelefonskiImeniWebUI\TelefonskiImeniWebUI.csproj", "{5C6C54B5-D435-4916-89C8-0025683BB7CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D518113-3666-4A3B-8CD8-01AB82CFDA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D518113-3666-4A3B-8CD8-01AB82CFDA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D518113-3666-4A3B-8CD8-01AB82CFDA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D518113-3666-4A3B-8CD8-01AB82CFDA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC36D56-EFBB-4FFA-B523-27B3A08CA424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC36D56-EFBB-4FFA-B523-27B3A08CA424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC36D56-EFBB-4FFA-B523-27B3A08CA424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC36D56-EFBB-4FFA-B523-27B3A08CA424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E947EC96-4D17-402A-8B5E-B4EA15F14EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E947EC96-4D17-402A-8B5E-B4EA15F14EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E947EC96-4D17-402A-8B5E-B4EA15F14EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E947EC96-4D17-402A-8B5E-B4EA15F14EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6C54B5-D435-4916-89C8-0025683BB7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6C54B5-D435-4916-89C8-0025683BB7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6C54B5-D435-4916-89C8-0025683BB7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6C54B5-D435-4916-89C8-0025683BB7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+		SolutionGuid = {C2E0B0D9-F902-4A2B-89BA-0EA4AD0D563B}
+	EndGlobalSection
+EndGlobal
